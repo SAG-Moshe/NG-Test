@@ -1,5 +1,5 @@
 <div *ngIf="showItem" [ngClass]="{'selected-right' : menuItem.selected && menuItem.labelDirection === 'right',
-                                  'selected-left' : menuItem.selected && menuItem.labelDirection === 'left'}" 
+                                  'selected-left' : menuItem.selected && menuItem.labelDirection === 'left'}"
                     [ngStyle]="{'background-color': menuItem.backgroundColor ? menuItem.backgroundColor : 'inherit', 'color': menuItem.color ? menuItem.color : 'inherit'}">
     <div class="menu-wrapper" [ngClass]="{'cursor-pointer': menuItem.clickable}" [title]="menuItem.label"
                               [ngStyle]="{'flex-direction': menuItem.labelDirection === 'left' ? 'row' : 'row-reverse' }"
@@ -12,3 +12,4 @@
         </div>
     </div>
 </div>
+<h1>Hi</h1>
