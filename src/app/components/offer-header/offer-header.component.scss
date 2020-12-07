@@ -1,0 +1,31 @@
+.container {
+    background-color: #ffffff;
+    border: 1px solid #f1f2f6;
+    border-radius: 7px;
+    box-shadow: 9px 9px 5px -6px rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 100%;
+
+    .offer-id {
+        background-color: #e7f1ff;
+        color: #3188ff;
+        display: inline-block;
+        height: 70px;
+        line-height: 21px;
+        text-align: center;
+        width: 10%;
+    }
+
+    .offer-detailes {
+        display: inline-block;
+        height: 80px;
+        padding: 0 10px;
+        line-height: 21px;
+        width: calc(90% - 20px);
+
+        .title {
+            color: #000000;
+            font-weight: bold;
+        }
+    }
+}

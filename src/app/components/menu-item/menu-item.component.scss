@@ -1,0 +1,32 @@
+.menu-wrapper {
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    height: 65px;
+    line-height: 42px;
+    padding: 0 10px;
+  
+
+    .menu-icon { 
+        align-items: center;
+        display: flex;
+        height: 50px;
+        width:35px;
+    }
+
+    .menu-label {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+}
+
+
+.selected-left {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 4px solid #2380FF;
+}
+
+.selected-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-right: 4px solid #2380FF;
+}

@@ -1,0 +1,29 @@
+//Remove this when you move the header to the component
+.offer-header {
+  // position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 800px;
+}
+
+
+.card {
+  width: 286px;
+  height: 101.7px;
+  border-radius: 4px;
+  box-shadow: 0 7px 10px 0 rgba(51, 52, 79, 0.06);
+  background-color: #ffffff;
+
+  .label {
+    width: 199px;
+    height: 31.1px;
+    font-family: Bariol;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(50, 54, 89, 0.46);
+  }
+}

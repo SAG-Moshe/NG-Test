@@ -1,0 +1,10 @@
+{
+    "menu" : {
+        "home" : "home"
+    },
+    "user_name": "User name",
+    "offer": {
+        "offer_id": "Offer ID"
+    }
+
+}

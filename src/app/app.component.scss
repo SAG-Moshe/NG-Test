@@ -1,0 +1,48 @@
+@import "../assets/styles/params.scss";
+
+.side-menu {
+    background-color: black;
+    color: #80828d;
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 75px;
+}
+
+.side-menu-open {
+    width: 160px;
+}
+
+.top-bar {
+    background-color: $top-bar-background-color;
+    color:#ffffff;
+    height: $top-bar-height;
+    left: 75px;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 75px);
+}
+
+.top-bar-side-menu-open {
+    left: 160px;
+    width: calc(100% - 160px);
+}
+
+.page-content {
+    background-color: #f5f6f7;
+    color: #80828d;
+    display: block;
+    height: calc(100vh - #{$top-bar-height});
+    left: 75px;
+    position: fixed;
+    top: $top-bar-height;
+    overflow: hidden;
+    width: calc(100% - 75px);
+}
+
+.page-content-side-menu-open {
+    left: 160px;
+    width: calc(100% - 160px);
+}

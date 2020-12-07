@@ -1,0 +1,7 @@
+<app-side-menu class="side-menu" [ngClass]="{'side-menu-open': sideMenuOpen}"
+  (notifyMenuOpen)="sideMenuClick($event)"></app-side-menu>
+<app-top-bar class="top-bar" [ngClass]="{'top-bar-side-menu-open': sideMenuOpen}"></app-top-bar>
+<div class="page-content" [ngClass]="{'page-content-side-menu-open': sideMenuOpen}">
+  <router-outlet></router-outlet>
+</div>
+

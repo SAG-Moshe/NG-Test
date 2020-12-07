@@ -1,0 +1,10 @@
+@import "../../../assets/styles/params.scss";
+
+.wrapper {
+
+    line-height: $top-bar-height;
+
+    .company-log {
+        float: right;
+    }
+}
